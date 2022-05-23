@@ -46,11 +46,11 @@ int main()
       {
         game.keyReleased(event);
       }
-    }
-    // "close requested" event: we close the window
-    if (event.type == sf::Event::Closed)
-    {
-      window.close();
+      // "close requested" event: we close the window
+      if (event.type == sf::Event::Closed)
+      {
+        window.close();
+      }
     }
 
     //'update' element of the game loop
